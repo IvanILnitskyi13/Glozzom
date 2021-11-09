@@ -6,6 +6,7 @@ body{
     font-size: 14px;
     text-transform: uppercase;
     padding: 0 1rem !important;
+    white-space:nowrap;
 }
 
 .navbar .nav-item.active {
@@ -91,4 +92,8 @@ body{
 #faq .card-body,
 #faq .card-header{
     background: #333;
+}
+
+#contacts textarea{
+    resize: none;
 }
